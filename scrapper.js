@@ -6,7 +6,7 @@ const db = require('./lib/db');
 
 const requestUrl = (options) => {
 	return new Promise(function(resolve, reject) {
-		request(options, (error, response, html) => {
+		request.post(options, (error, response, html) => {
 			if (error) {
 				reject(error);
 			}

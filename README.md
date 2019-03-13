@@ -7,3 +7,11 @@ Jiny plan
 - mam jinou stranku v ES
 - udelam to samy
 - kouknu, ktery uzivatele se prekryvaji
+
+# Run
+```sh
+node website/foo.js
+```
+
+# Debug
+Use [request-debug]() - just uncomment the require.
